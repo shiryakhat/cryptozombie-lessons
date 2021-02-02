@@ -1,6 +1,6 @@
 ---
-title: Arrays
-actions: ['checkAnswer', 'hints']
+title: آرایه‌ها
+actions: ['پاسخ', 'راهنمایی']
 material:
   editor:
     language: sol
@@ -39,7 +39,7 @@ material:
       }
 ---
 
-When you want a collection of something, you can use an **_array_**. There are two types of arrays in Solidity: **_fixed_** arrays and **_dynamic_** arrays:
+وقتی یه مجموعه از هر چیزی می‌خواهید بسازید، می‌تونید از **آرایه** استفاده کنید. در سالیدیتی دو نوع آرایه وجود دارد: آرایه **ایستا** و آرایه **پویا**:
 
 ```
 // Array with a fixed length of 2 elements:
@@ -50,26 +50,26 @@ string[5] stringArray;
 uint[] dynamicArray;
 ```
 
-You can also create an array of **_structs_**. Using the previous chapter's `Person` struct:
+همچنین می‌توانید از آرایه‌ای از **ساختارها** استفاده کنید. در اینجا از ساختار `Person` از فصل قبل استفاده می‌کنیم:
 
 ```
 Person[] people; // dynamic Array, we can keep adding to it
 ```
 
-Remember that state variables are stored permanently in the blockchain? So creating a dynamic array of structs like this can be useful for storing structured data in your contract, kind of like a database.
+به خاطر دارید که متغیرهای حالت به صورت دايمی در بلاکچین ذخیره می‌شود؟ بنابراین ایجاد یک آرایه پویا از ساختارها مثل این می‌تواند برای ذخیره داده‌های ساختاریافته در قرارداد، چیزی شبیه به پایگاه داده، مفید باشد.
 
-## Public Arrays
+## آرایه‌های عمومی
 
-You can declare an array as `public`, and Solidity will automatically create a **_getter_** method for it. The syntax looks like:
+شما می‌توانید یک آرایه را به صورت `عمومی` تعریف کنید، و سالیدیتی به‌صورت خودکار یک متد **_getter_** برایش ایجاد می‌کند. سینتکس آن به صورت زیر خواهد بود:
 
 ```
 Person[] public people;
 ```
 
-Other contracts would then be able to read from, but not write to, this array. So this is a useful pattern for storing public data in your contract.
+به این ترتیب بقیه قراردادها تنها دسترسی خواندن از این آرایه را خواهند داشت. بنابراین این یک الگوی مناسب برای ذخیره داده عمومی در قرارداد شما است.
 
-# Put it to the test
+# تستش کنید
 
-We're going to want to store an army of zombies in our app. And we're going to want to show off all our zombies to other apps, so we'll want it to be public.
+می‌خواهیم یک ارتش زامبی در اپلیکیشن‌مان داشته باشیم. و می‌خواهیم زامبی‌هامون را به رخ اپلیکیشن‌های دیگر بکشیم، بنابراین می‌خواهیم به صورت عمومی ذخیره شود.
 
-1. Create a public array of `Zombie` **_structs_**, and name it `zombies`.
+۱. یک آرایه عمومی `Zombie` به صورت **_structs_** ایجاد کنید، و اسمش رو `zombies` بگذارید.
