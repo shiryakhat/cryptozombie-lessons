@@ -1,6 +1,6 @@
 ---
 title: ساختارها و آرایه‌ها
-actions: ['پاسخ', 'راهنمایی']
+actions: ['بررسی پاسخ', 'راهنمایی']
 material:
   editor:
     language: sol
@@ -46,7 +46,8 @@ material:
 
       }
 ---
-<div dir="rtl">     
+<div dir="rtl">  
+  
 ۱.داخل تابع یه زامبی جدید با عنوان `Zombie`بسازین و اونو به آرایه`zombies` اضافه کنین. اسم `name` و دی‌ان‌ای `dna` زامبی جدید از آرگومان‌های تابع‌مونه.
 ۲. بیایین کدمونو تو یه خط بنویسیم تا تمیزتر باشه.
 
@@ -66,10 +67,10 @@ Person[] public people;
 حالا می‌خوایم یاد بگیریم چطوری `Person`های جدید بسازیم و اونا رو به آرایه `people` (مردم) اضافه کنیم..
 
 ```
-// create a New Person:
+// ایجاد شخص(Person) :جدید
 Person satoshi = Person(172, "Satoshi");
 
-// Add that person to the Array:
+// افزودن آن شخص به آرایه:
 people.push(satoshi);
 ```
 
@@ -87,7 +88,7 @@ uint[] numbers;
 numbers.push(5);
 numbers.push(10);
 numbers.push(15);
-// numbers is now equal to [5, 10, 15]
+// آرایه number در نهایت به این ترتیب می‌شه [5, 10, 15]
 ```
 
 # دست به کد شو
@@ -97,4 +98,5 @@ numbers.push(15);
 
 ۱.داخل تابع یه زامبی جدید با عنوان `Zombie`بسازین و اونو به آرایه`zombies` اضافه کنین. اسم `name` و دی‌ان‌ای `dna` زامبی جدید از آرگومان‌های تابع‌مونه.
 ۲. بیایین کدمونو تو یه خط بنویسیم تا تمیزتر باشه.
+
 </div>
