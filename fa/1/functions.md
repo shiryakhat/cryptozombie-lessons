@@ -1,5 +1,5 @@
 ---
-title: Function Declarations
+title: تعریف توابع
 actions: ['بررسی پاسخ', 'راهنمایی']
 material:
   editor:
