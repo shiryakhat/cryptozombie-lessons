@@ -1,6 +1,6 @@
 ---
 title: ساختارها و آرایه‌ها
-actions: ['پاسخ', 'راهنمایی']
+actions: ['بررسی پاسخ', 'راهنمایی']
 material:
   editor:
     language: sol
