@@ -1,5 +1,5 @@
 ---
-title: Private / Public Functions
+title: توابع عمومی و خصوصی
 actions: ['بررسی پاسخ', 'راهنمایی']
 material:
   editor:
