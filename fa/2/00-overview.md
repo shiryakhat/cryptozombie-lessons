@@ -1,13 +1,14 @@
 ---
-title: Zombies Attack Their Victims
-header: So, you've made it to Lesson 2!
+title: زامبی ها به قربانیانشان حمله می کنند
+header:  پس، تونستید تا درس ۲ پیش بیایید!
 roadmap: roadmap2.jpg
 path: solidity
 ---
+<div dir="rtl">
+خیلی عالی ، انسان! از آنچه که فکر می کردم برنامه نویس بهتری هستید.
 
-Impressive, human! You're a better coder than I thought.
+درس 2 به شما می آموزد که چطور **با تغذیه از سایر اشکال زندگی ، ارتش زامبی خود را چند برابر کنید**.
 
-Lesson 2 will teach you how to **multiply your zombie army by feeding on other lifeforms**.
-
-In this lesson we will cover some more advanced Solidity concepts, so it's highly
-recommended that you complete Lesson 1 before starting.
+در این درس برخی از مفاهیم پیشرفته تر **_Solidity_** را پوشش خواهیم داد ، بنابراین شدیدا 
+توصیه می شود قبل از شروع ، درس 1 را کامل کنید.
+</div>
