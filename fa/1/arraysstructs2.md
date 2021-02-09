@@ -46,6 +46,11 @@ material:
 
       }
 ---
+<div dir="rtl">  
+  
+۱.داخل تابع یه زامبی جدید با عنوان `Zombie`بسازین و اونو به آرایه`zombies` اضافه کنین. اسم `name` و دی‌ان‌ای `dna` زامبی جدید از آرگومان‌های تابع‌مونه.
+۲. بیایین کدمونو تو یه خط بنویسیم تا تمیزتر باشه.
+
 
 <div dir="rtl">   
   
@@ -64,6 +69,8 @@ struct Person {
 Person[] public people;
 ```
 
+
+=======
 <div dir="rtl">     
 
 حالا می‌خوایم یاد بگیریم چطوری `Person`های جدید بسازیم و اونا رو به آرایه `people` (مردم) اضافه کنیم.
@@ -88,6 +95,7 @@ people.push(satoshi);
 people.push(Person(16, "Vitalik"));
 ```
 
+
 <div dir="rtl">  
    
 توجه کنین که `array.push()` عنصر جدید رو به **انتها**ی آرایه اضافه می‌کنه، پس عناصر به ترتیبی که اضافه شدند در آرایه ذخیره می‌شن. مثال زیر رو ببینین:
@@ -99,8 +107,9 @@ uint[] numbers;
 numbers.push(5);
 numbers.push(10);
 numbers.push(15);
-// numbers is now equal to [5, 10, 15]
+// آرایه number در نهایت به این ترتیب می‌شه [5, 10, 15]
 ```
+
 
 <div dir="rtl">  
 
