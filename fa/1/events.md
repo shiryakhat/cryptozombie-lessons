@@ -1,6 +1,6 @@
 ---
-title: Events
-actions: ['checkAnswer', 'hints']
+title: رویدادها
+actions: ['بررسی پاسخ', 'راهنمایی']
 material:
   editor:
     language: sol
