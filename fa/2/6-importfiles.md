@@ -79,7 +79,7 @@ contract newContract is SomeOtherContract {
 
 بنابراین اگر فایلی با نام `someothercontract.sol` در همان دایرکتوری این قرارداد داشته باشیم (معنی `./` همین است) ، توسط کامپایلر import می شود.
 
-# تست کنید
+# دست به کد شو
 
 اکنون که ساختار چند فایلی را تنظیم کردیم ، برای خواندن مطالب فایل دیگر باید از import استفاده کنیم:
 1. `zombiefactory.sol` را به فایل جدید ما ، `zombiefeeding.sol` import کنید.
