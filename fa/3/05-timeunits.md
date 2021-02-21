@@ -1,6 +1,6 @@
 ---
-title: Time Units
-actions: ['checkAnswer', 'hints']
+title: واحدهای زمانی
+actions: ['بررسی پاسخ', 'راهنمایی']
 requireLogin: true
 material:
   editor:
