@@ -46,11 +46,11 @@ material:
 </div>
 
 ```
-// آرایه دو عنصری ایستا (طول ثابت):
+// Array with a fixed length of 2 elements:
 uint[2] fixedArray;
-// آرایه ایستای دیگری که می‌تواند ۵ رشته را نگه دارد:
+// another fixed Array, can contain 5 strings:
 string[5] stringArray;
-// :آرایه پویا- طول ثابت ندارد و می‌تواند بزرگ شود
+// a dynamic Array - has no fixed size, can keep growing:
 uint[] dynamicArray;
 ```
 
