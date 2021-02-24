@@ -76,10 +76,10 @@ Person[] public people;
 </div>
 
 ```
-// یک شخص جدید ایجاد کنید
+// create a New Person:
 Person satoshi = Person(172, "Satoshi");
 
-// این شخص را به آرایه اضافه کنید
+// Add that person to the Array:
 people.push(satoshi);
 ```
 
@@ -106,7 +106,7 @@ uint[] numbers;
 numbers.push(5);
 numbers.push(10);
 numbers.push(15);
-// آرایه number در نهایت به این ترتیب می‌شه [5, 10, 15]
+// numbers is now equal to [5, 10, 15]
 ```
 
 
